@@ -1,0 +1,74 @@
+
+
+
+/* Smartphones */
+@media screen and (min-width: 320px)  {
+
+    html { 
+        background: url(../images/latin_america.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    
+    #page{
+        width: 100%;
+        height: 100%
+
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+
+    }
+
+
+    #header{
+    background-color: black;
+    height: 70px;
+    opacity: 0.4; /* the lower, the more transparent */
+
+    
+    }
+
+    #language_button{
+    width: 140px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 10px;
+    float: left;
+
+    }
+
+    .button{
+   padding: 10px 15px;  /* top | right| bottom | left */
+   
+   font-family: 'Quicksand', sans-serif;
+   font-size: 17px;
+    }
+
+
+
+    #menu_button {
+            text-decoration: none;
+            color:white;
+            float: right;
+            margin-top: 17px;
+            margin-right: 14px;
+    }
+
+    #menu_button:hover{
+        color: grey;
+    }
+
+    #move_to_left{
+        transform: translateX(-400px);
+        transition: all .7s .2s ease-in-out;
+        transform: translateY(-15px) rotateZ(-45deg);
+    }
+
+
+
+
+} /* end (min-width: 320px) */
