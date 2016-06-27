@@ -15,6 +15,9 @@
 
 	<!-- google fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+
 
 	<title>Home</title>
 </head>
@@ -32,11 +35,50 @@
 				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
 			</a>
 
-
-
+			<div id= "menu_list">
+				<a href="./portfolio_v1.html">Home</a> &nbsp;  &nbsp;
+				<a href="./about.html">About</a> &nbsp; &nbsp;
+				<a href="./contact.html">Contact</a>
+			</div>
 
 
 		</div> <!-- end header -->
+
+		<div id="menu_detail">
+			<ul>
+				<li><a href="./portfolio_v1.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+
+			</ul>
+		</div>  <!-- end menu_detail -->
+
+
+
+		<div id="box1">
+			<div id="box1_title">
+				Community app
+			</div>
+
+			<div id="box1_details">
+				It is an app that allows you to find...
+			</div>
+
+			<div id="box1_city">
+				Manassas, VA
+			</div>
+
+
+		</div> <!-- end box1 -->
+
+		<div id="box2"> 
+			<img src="./images/hospital.png" width="70px" height="70px">
+			<img src="./images/white_house.png" width="70px" height="70px">
+
+		</div>
+
+
+
 
 
 
@@ -45,14 +87,13 @@
 
 
 	<script type="text/javascript">
-
-	$(document).ready(function(){
-		$("#menu_button").click(function(){
-			$("#page").toggleClass("#move_to_left");
-
-
+		
+		$(document).ready(function(){
+			$("#menu_button").click(function(){
+				$("#menu_detail").slideToggle(700);
+			});
 		});
-	});
+
 
 
 
