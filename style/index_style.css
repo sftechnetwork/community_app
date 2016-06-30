@@ -5,7 +5,7 @@
 
 
 /* Smartphones */
-@media screen and (min-width: 320px)  {
+@media screen and (min-width: 310px)  {
 
     html { 
         background: url(../images/latin_america.jpg) no-repeat center center fixed; 
@@ -36,16 +36,16 @@
     }
 
     #language_button{
-    width: 140px;
-    height: 40px;
-    margin-top: 14px;
-    margin-left: 10px;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px; 
+    margin-left: 15px; 
     float: left;
 
     }
 
     .button{
-   padding: 10px 15px;  /* top | right| bottom | left */
+    /* padding top | right| bottom | left */
    
    font-family: 'Quicksand', sans-serif;
    font-size: 17px;
@@ -71,7 +71,7 @@
     }
 
     #menu_detail{
-    background: #14292e;
+    background:  #04080e;
     
 
     }
@@ -92,7 +92,7 @@
     }
 
     #menu_detail ul li:hover{
-        background: #234851;
+        background: #323232;
     }
 
     #menu_detail a{
@@ -104,26 +104,36 @@
         text-align: center;
         border-width: 0px;
         border-style: solid;
-        margin-top: 20px;
+        margin-top: 30px;
         color: white;
     }
 
     #box1_title{
         font-family: 'Poiret One', cursive;
-        font-size: 35px;
+        font-size: 40px;
     }
 
     #box1_details{
         font-family: 'Cabin', sans-serif;
+        font-size: 19px;
+        margin-top: 10px;
+        color: #e5e5e5;
+
+    }
+
+    #box1_city{
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
         font-size: 18px;
     }
 
 
     #box2{
-        border-width: 1px;
-        border-style: solid;
+
         text-align: center;
         margin-top: 30px;
+        color: white;
+        font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
     }
 
     #box2 img{
@@ -131,6 +141,86 @@
 
     }
 
+    #box2 .icon{
+        width: 80px;
+        height: 80px;
+    }
+
+    #box3{
+        margin-top: 40px;
+        text-align: center;    
+        color: #e5e5e5;
+        font-size: 13px;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    }
+
+    #bar img{
+         opacity: 0.8;
+         color: white;
+         height: 2px;
+         width:  120px;
+         margin-bottom: 3px;
+
+    }
+
+
+
+    #box4{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+
+    #box4 input{
+        width: 160px;
+        height: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+
+    }
+
+    #box4 button{
+        width: 40px;
+        height: 30px;
+        background: #cccccc;
+    }
+
+
+    #border_line{
+        margin-top: 5px;
+        border-top: 1px solid white;
+        width: 20%;
+        margin: auto;
+    }
+
+    #footer{
+       /* bottom: 0;
+
+        position: absolute; */
+        margin-top: 100px;
+        color: white;
+        border-style: solid;
+        border-width: 0px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    #footer_word{
+        font-size: 13px;
+        font-family: Verdana, Geneva, sans-serif;
+        color: #b2b2b2;
+    }
+
+
+    #links a{
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    }
 
 
 } /* end (min-width: 320px) */

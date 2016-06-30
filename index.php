@@ -61,24 +61,68 @@
 			</div>
 
 			<div id="box1_details">
-				It is an app that allows you to find...
+				Find social services that offer in-person interpreters and translators.
 			</div>
 
 			<div id="box1_city">
-				Manassas, VA
+				
 			</div>
 
 
 		</div> <!-- end box1 -->
 
 		<div id="box2"> 
-			<img src="./images/hospital.png" width="70px" height="70px">
-			<img src="./images/white_house.png" width="70px" height="70px">
 
-		</div>
+				<img class="icon" src="./images/hospital.png">  &nbsp;  &nbsp;  &nbsp; &nbsp;
+				<img class="icon" src="./images/white_house.png"> <br>
+				Hospital  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; Housing
+		
+		</div> <!-- end box2 -->
 
+		<div id="box3">
+			<div id="bar">
 
+				<img  src="./images/bar.png" height="6px" width="100px"> 
+				OR  
+				<img src="./images/bar.png" >
+			</div>
+		</div> <!-- end box3 -->
 
+		<div id="box4">
+			<form action="#" method="GET">
+
+  				
+    				<input type="search" id="search" placeholder=" Search..." > 
+
+    			
+    				<button class="icon">
+    					<i class="fa fa-search"></i>
+    				</button> 
+
+    				
+ 				
+			</form>
+
+		</div> <!-- end box4 -->
+
+		<div id= "footer">
+
+			<div id="border_line">
+
+			</div>
+
+			<div id="footer_word"><br>
+				A Miguel Gomez production <br>
+				&copy; 2016. All Rights Reserved <br>
+			</div>	
+
+			<div id="links">
+				<a href="./home.php">Home</a> &nbsp;
+				<a href="./about.php">About</a> &nbsp;
+				<a href="./contact.php">Contact </a>
+			</div>					
+
+		</div> <!-- end footer -->
 
 
 
